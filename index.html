@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Site de Marjulia</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+	
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+    <!-- Navbar Start -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Marjulia</span> Abaukoma</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#accueil" class="nav-item nav-link">Accueil</a>
+                <a href="#competences" class="nav-item nav-link">Mes compétences</a>
+				<a href="#contact" class="nav-item nav-link">Contact</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#testimonial" class="nav-item nav-link">Mes loisirs</a>
+                <a href="#blog" class="nav-item nav-link">Vidéo professionnelle</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+
+    <!-- Video Modal Start -->
+    <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>        
+                    <!-- 16:9 aspect ratio -->
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Video Modal End -->
+
+
+    <!-- Header Start -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/Marjulia.jpg" alt="">
+                </div>
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Je suis</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 2px #ffffff;">Marjulia Abaukoma Djefson</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Étudiante en IUT Techniques de commercialisation, Amatrice  d'art, Artiste en devenir</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- Accueil Start -->
+    <div class="container-fluid py-5" id="accueil">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Accueil</h1>
+                <h1 class="position-absolute text-uppercase text-primary">À propos de moi</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/image2.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">Étudiante en IUT Techniques de commercialisation</h3>
+                    <p>Étant étudiante à l'IUT Montpellier-Sète, j'ai toujours été passionnée par l'univers du commerce, du relationnel et du monde de la communication. Le monde du digital étant en plein essort, je me suis par la suite dirigée vers la filière "Marketing digital, e-business et entrepreunariat." Parallèlement à mes études, j'ai pour habitude de dessiner, car le monde de l'art est aussi riche que passionant et ne demande qu'à être exploré. Un compromis serait alors pour moi de devenir UX/UI designer, un métier qui mêle à la fois créativité et le monde du marketing digital.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Prénom et nom: <span class="text-secondary">Marjulia Abaukoma Djefson</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Anniversaire: <span class="text-secondary">23 février 2005</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Niveau de diplôme: <span class="text-secondary">Bac +1</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Téléphone: <span class="text-secondary">+33 7 68 30 24 01</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">marjulia.abau@outlook.fr</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Adresse: <span class="text-secondary">784 rue de la croix de lavit, 34090 Montpellier</span></h6></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Accueil End -->
+
+
+    <!-- Competences Start -->
+    <div class="container-fluid py-5" id="competences">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Acquis</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Compétences et expériences</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Mon CV</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <p>Vous pouvez accéder <a href="CV.pdf" title="CV Marjulia">ici</a> à mon CV.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">Ma lettre de motivation</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -32px;"></i>
+                            <p>Vous pouvez accéder <a href="LM.pdf" title="LM Marjulia">ici</a> à ma lettre de motivation.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Competences End -->
+
+    <!-- Services Start -->
+    <div class="container-fluid pt-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Mail</h4>
+                    </div>
+                    <p>marjulia.abau@outlook.fr</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-phone service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Téléphone</h4>
+                    </div>
+                    <p>07.68.30.24.01</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-edit service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">LinkedIn</h4>
+                    </div>
+                    <p>Marjulia ABAUKOMA DJEFSON</p>
+                </div>
+                <div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-camera service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Instagram</h4>
+                    </div>
+                    <p>@na.kimiia</p>
+                </div>
+				<div class="col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-link service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Liens vers les sites des collègues</h4>
+                    </div>
+                    <p>mettre lien plus tard</p>
+                </div>
+				<div class="col-lg-4 col-md-6 text-center mb-5">
+					<div class="d-flex align-items-center justify-content-center mb-4">
+						<i class="fa fa-2x fa-search service-icon bg-primary text-white mr-3"></i>
+						<h4 class="font-weight-bold m-0">Localisation</h4>
+					</div>
+					<p>784 rue de la croix de lavit, 34090 Montpellier</p>
+					<div style="display: flex; justify-content: center;">
+						<div style="width: 800px">
+							<iframe width="600" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=784%20rue%20de%20la%20croix%20de%20lavit,%2034090%20Montpellier+(Ma%20localisation)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed">
+								<a href="https://www.gps.ie/">gps devices</a>
+							</iframe>
+						</div>
+					</div>
+				</div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallerie</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Mon Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active"  data-filter="*">Tout</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".first">Excel</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".second">Projet Web HTML CSS</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".third">SAE</li>
+						<li class="btn btn-sm btn-outline-primary m-1" data-filter=".fourth">Stage</li>
+						<li class="btn btn-sm btn-outline-primary m-1" data-filter=".fifth">Personnel</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item first">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/excel.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/excel.png" data-lightbox="portfolio" data-title="J'ai utilisé pour réaliser ce travail le logiciel Excel. Il fallait ici être capable de réaliser un tableau croisé dynamique à partir d'un tableur. Le tableau croisé dynamique (TCD) dans Excel est un outil puissant qui permet de synthétiser, analyser et présenter des données de manière flexible. Il est particulièrement utile pour extraire des informations significatives d'un grand ensemble de données en les regroupant et en les organisant sous différents angles, sans modifier les données sources.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item second">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/web.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/web.png" data-lightbox="portfolio" data-title="J'ai utilisé pour réaliser ce travail le logiciel Notepad. Il fallait ici être capable de réaliser une galerie de photos, sous forme de tableau. Il était possible d'ouvrir la photo sous son format original et non mini, donc de l'agrandir, en cliquant dessus.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/forces.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/forces.png" data-lightbox="portfolio" data-title="Les forces de Porter analysent la compétitivité du secteur en évaluant les forces concurrentielles. Grâce à ces analyses, j'ai pu comprendre le contexte dans lequel évolue l'entreprise, identifier les opportunités et menaces, et ainsi choisir une cible, un positionnement, et concevoir une offre cohérente et éthique. Nous avons ainsi pu tenir compte des composantes essentielles étant donné que ce sont des outils qui nous aident à analyser, décider et agir stratégiquement dans diverses situations professionnelles, qu'il s'agisse du développement de produits, de services ou d'activités non marchandes, renforçant ainsi nos savoirs en marketing.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/comm.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/comm.png" data-lightbox="portfolio" data-title="Le communiqué de presse nous a permis de présenter professionnellement une offre aux clients, en respectant l'éthique et les règlements en vigueur, tout en s'adaptant à la situation commerciale (évènement dans le cadre de notre lancement de bière). Il m'a permis de développer mes compétences en argumentation afin de présenter une offre, très efficace pour s'adresser aux entreprises.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/puyricard.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/puyricard.png" data-lightbox="portfolio" data-title="De même, la plaquette commerciale, véritable outil d'aide à la vente, présente les produits ou services de manière attrayante, de façon synthétique et dans le respect de l'esthétique afin d'inciter la cible à s'intéresser au produit et de voir si notre offre pourrait satisfaire ses besoins.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/choco.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/choco.png" data-lightbox="portfolio" data-title="L'affiche, en tant que support visuel, permet de véhiculer des messages pertinents et attrayants pour atteindre le public cible, en élaborant une stratégie de communication en cohérence avec le mix. Elle est un exemple concret de la production d'un support efficace et qualitatif, de notre capacité à créer un support simple en respectant les règles sur l'affichage publicitaire. Nous pourrions également mesurer l'impact de notre campagne publicitaire par la suite, l'affichage ayant été l'un de nos choix de médias concernant notre SAE communication, ce qui témoigne de notre capacité à faire un choix entre les différents médias et hors-médias.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+				<div class="col-lg-4 col-md-6 mb-4 portfolio-item third">
+					<div class="position-relative overflow-hidden mb-2">
+						<video class="img-fluid rounded w-100" controls>
+							<source src="img/videosite.mp4" type="video/mp4">
+						</video>
+						<div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+							<a data-fancybox="gallery" href="img/videosite.mp4" data-caption="Cette vidéo nous a permis de créer et de véhiculer un message publicitaire dynamique et engageant pour un site internet de bijoux, offrant une expérience visuelle attrayante pour le public cible. Elle illustre la production d'un support de communication impactant, en cohérence avec les objectifs stratégiques de notre projet.">
+								<i class="fa fa-play text-white" style="font-size: 60px;"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fourth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/CA.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/CA.png" data-lightbox="portfolio" data-title="Mon stage au Crédit Agricole, agence Malbosc, a été une expérience enrichissante. Il m'a permis de découvrir concrètement le monde de la banque, la gestion de la relation client, ainsi que les aspects pratiques de la négociation et de la vente. J'ai pu comparer les théories apprises en cours avec les réalités du terrain, notamment en adaptant mes méthodes à des situations variées. Ce stage m'a aidé à développer mes compétences interpersonnelles et ma capacité à m'adapter rapidement, tout en m'intégrant dans une équipe dynamique et accueillante.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item fifth">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/amba.jpeg" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/amba.jpeg" data-lightbox="portfolio" data-title="En décembre dernier, j'ai eu l'opportunité d'être ambassadrice pour mon IUT lors d'un événement de Job Dating. Au début, la gestion des rendez-vous et l'accueil des participants représentaient un vrai challenge, mais j'ai rapidement pris le rythme. La plus grande satisfaction est venue en voyant les retours positifs des entreprises sur l'organisation que j'avais mise en place. Je me suis aussi occupée de l’agencement de l’accueil avec un camarade, comme illustré sur la photo. Le cocktail de clôture n'en était que plus gratifiant ! Merci à toute l'équipe pour cette belle expérience.">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Portfolio End -->
+
+
+    <!-- Testimonial Start -->
+    <div class="container-fluid py-5" id="testimonial">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Hobbies</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Mes loisirs</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="owl-carousel testimonial-carousel">
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">Je me passionne d'art depuis petite. C'est une activité personnelle que j'exerce en parallèle de mes études en commerce. J'aimerais, si possible plus tard, ouvrir mon propre business en art, ou travailler pour un grand studio d'animation, comme l'entreprise Fortiche derrière l'animation Arcane.</h4>
+                            <img class="img-fluid rounded w-100" src="img/art.png" style="width: 250px; height: 450px;">
+                            <h5 class="font-weight-bold m-0">Original Character Design</h5>
+                            <span>Art</span>
+                        </div>
+                        <div class="text-center">
+                            <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
+                            <h4 class="font-weight-light mb-4">J'aime aussi beaucoup le monde de la photo et du mannequinat. Il m'arrive de poser pour des petits créateurs et des photographes, voire de jouer la modèle pour des défilés.</h4>
+                            <img class="img-fluid rounded w-100" src="img/shoot.jpg" style="width: 60px; height: 750px;">
+                            <h5 class="font-weight-bold m-0">Photoshoot</h5>
+                            <span>Photo</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+
+    <!-- Blog Start -->
+    <div class="container-fluid pt-5" id="blog">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Vidéo</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Vidéo professionnelle</h1>
+            </div>
+<div class="row">
+    <div class="col-lg-4 mb-5">
+        <div class="position-relative mb-4">
+            <video src="img/marjulia.mp4" width="550" height="400" controls poster="img/vignette.png">
+                Cette vidéo ne peut être affichée sur votre navigateur Internet.<br>
+            </video>
+        </div>
+    </div>
+</div>
+    <!-- Blog End -->
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-primary text-white mt-5 py-5 px-sm-3 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="https://www.linkedin.com/in/marjulia-abaukoma-djefson-973a5b298/"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://www.instagram.com/na.kimiia/"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom -->
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-outline-dark px-0 back-to-top"><i class="fa fa-angle-double-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
